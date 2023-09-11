@@ -1,4 +1,4 @@
-.workContainer {
+.contactContainer {
   position: relative;
   height: 100%;
   width: 100%;
@@ -11,8 +11,8 @@
   height: 100vh;
 }
 
-.workContent {
-  background-color: #424242;
+.contactContent {
+  background-color: #292929;
   z-index: 1;
   position: relative;
   height: 100vh;
@@ -82,7 +82,7 @@
   padding-right: 1rem;
 }
 
-.workLine {
+.contactLine {
   width: 4rem;
   margin-left: 1rem;
   margin-right: 1rem;
@@ -91,48 +91,36 @@
   height: 0.15rem;
 }
 
-.workCopywrightContainer {
+.contactCopywrightContainer {
   padding-left: 1.2rem;
   padding-right: 1rem;
   color: white;
 }
 
-.workCopywright {
+.contactCopywright {
   color: white;
   font-weight: normal;
 }
 
-.workText {
-  margin-top: 2.5rem;
+.contactText {
   margin-bottom: 1rem;
   padding: 1.5rem;
 }
 
-.workHeader {
+.contactHeader {
   color: white;
   letter-spacing: 3px;
-  font-size: 0.8rem;
-}
-
-.workParagraph {
-  line-height: 1.5rem;
-  font-size: 0.8rem;
-  color: white;
-}
-
-.workLinks {
-  display: flex;
-  flex-direction: column;
-  font-size: 2.5rem;
-  padding: 1.5rem;
+  font-size: 3.5rem;
   font-family: 'Fondamento', cursive;
+  margin-bottom: 0;
 }
 
-.workListItem {
+.contactParagraph {
+  font-size: 0.8rem;
   color: white;
-  text-decoration: none;
+  letter-spacing: 1px;
 }
 
-.workListItem:hover {
-  font-style: italic;
+.underline {
+  text-decoration: underline;
 }

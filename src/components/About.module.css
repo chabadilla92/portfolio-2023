@@ -1,4 +1,146 @@
 .aboutContainer {
-  background-color: red;
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+.initialContent {
+  background-color: #ffeedd;
+  z-index: 1;
+  position: relative;
   height: 100vh;
+}
+
+.aboutContent {
+  background-color: #424242;
+  z-index: 1;
+  position: relative;
+  height: 130vh;
+}
+
+.wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  animation-name: slideUpAnimation; /* Reference the keyframe animation */
+  animation-duration: 1s; /* Animation duration */
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0, 0, 0.25, 1.3);
+  z-index: 2;
+}
+
+.wrapper.animate {
+  height: 0vh;
+}
+
+.lightWrapper {
+  background-color: #ffeedd;
+}
+
+@keyframes slideUpAnimation {
+  0% {
+    height: 100vh; /* Start with full height */
+  }
+  5% {
+    height: 99.5vh; /* Slightly slower start */
+  }
+  10% {
+    height: 99vh; /* Gradual acceleration */
+  }
+  15% {
+    height: 98.5vh; /* Faster acceleration */
+  }
+  20% {
+    height: 98vh; /* Even faster acceleration */
+  }
+  25% {
+    height: 97.5vh;
+  }
+  30% {
+    height: 97vh;
+  }
+  100% {
+    height: 0vh; /* End with zero height */
+  }
+}
+
+.navBar {
+  display: flex;
+  justify-content: flex-start;
+  padding: 1.5rem;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 4px;
+}
+
+.homeLink {
+  color: white;
+  text-decoration: none;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.aboutLine {
+  width: 4rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 0.25rem;
+  background-color: white;
+  height: 0.15rem;
+}
+
+.aboutCopywrightContainer {
+  padding-left: 1.2rem;
+  padding-right: 1rem;
+  color: white;
+}
+
+.aboutCopywright {
+  color: white;
+  font-weight: normal;
+}
+
+.aboutText {
+  margin-bottom: 1rem;
+  padding: 1.5rem;
+}
+
+.aboutHeader {
+  color: white;
+  letter-spacing: 3px;
+  font-family: 'Fondamento', cursive;
+  font-size: 3rem;
+  margin-bottom: 0;
+}
+
+.aboutSubHeader {
+  font-family: 'Fondamento', cursive;
+  letter-spacing: 3px;
+  color: white;
+  margin-top: 0;
+  font-size: 1rem;
+}
+
+.aboutParagraph {
+  line-height: 1.5rem;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.resumeContainer {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.resume {
+  color: white;
+  text-decoration: none;
+  font-family: 'Fondamento', cursive;
+  border: 1px solid black;
+  padding: 0.8rem;
+  border-radius: 35px;
+  background-color: black;
+  font-size: 0.8rem;
 }

@@ -13,7 +13,6 @@
   height: 100vh;
   animation-name: slideUpAnimation; /* Reference the keyframe animation */
   animation-duration: 1s; /* Animation duration */
-  animation-delay: 1s; /* Delay before the animation starts */
   animation-fill-mode: forwards;
   animation-timing-function: cubic-bezier(0, 0, 0.25, 1.3);
   z-index: 2;
@@ -48,6 +47,13 @@
   100% {
     height: 0vh; /* End with zero height */
   }
+}
+
+.initialContent {
+  background-color: #424242;
+  z-index: 1;
+  position: relative;
+  height: 100vh;
 }
 
 .homeContent {
