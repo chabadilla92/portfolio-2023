@@ -68,7 +68,7 @@
 
 .navBar {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   padding: 1.5rem;
   font-size: 0.6rem;
   font-weight: 600;
@@ -143,4 +143,41 @@
   border-radius: 35px;
   background-color: black;
   font-size: 0.8rem;
+}
+
+@media screen and (min-width: 768px) {
+  .aboutContent {
+    height: auto;
+  }
+
+  .navBar {
+    flex-direction: column;
+    height: 100vh;
+    position: fixed;
+    width: 6%;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .aboutHeader {
+    font-size:6rem;
+  }
+
+  .aboutText {
+    margin-left: 6rem;
+    padding-top: 10rem;
+    margin-bottom: 0;
+  }
+
+  .homeLink,
+  .aboutLine,
+  .aboutCopywrightContainer {
+    margin-bottom: 2rem;
+    width: 4rem;
+    transform: rotate(-90deg);
+  }
+
+  .aboutLine {
+    width: 8rem;
+  }
 }

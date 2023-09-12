@@ -125,3 +125,65 @@
 .navListItem:hover {
   font-style: italic;
 }
+
+@media screen and (min-width: 375px) {
+  .homeContent {
+    height: 110vh;
+  }
+
+  .homeNav {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  .homeNav {
+    font-size: 4.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .homeContent {
+    height: auto;
+  }
+
+  .homeText {
+    padding-top: 12rem;
+  }
+
+  .socialBar {
+    flex-direction: column;
+    height: 100vh;
+    width: 6%;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .socialItem {
+    margin-bottom: 2rem;
+    width: 4rem;
+  }
+
+  .line {
+    width: 6rem;
+  }
+
+  .socialItem,
+  .line {
+    transform: rotate(-90deg);
+  }
+
+  .homeText {
+    margin-top: 0;
+  }
+
+  .homeText,
+  .homeNav {
+    margin-left: 6rem;
+  }
+
+  .homeNav {
+    font-size: 7rem;
+  }
+}
