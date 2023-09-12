@@ -153,10 +153,29 @@
 
   .contactText {
     margin-left: 6rem;
+    margin-right: 6rem;
     padding-top: 8rem;
   }
 
   .contactHeader {
     font-size: 7rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .contactHeader {
+    font-size: 9rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .contactHeader {
+    font-size: 20rem;
+  }
+
+  .contactText {
+    margin-left: 12rem;
+    min-width: 50vw;
+    width: 50vw;
   }
 }

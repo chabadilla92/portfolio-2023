@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import Wrapper from './Wrapper';
 
 import styles from './Work.module.css';
 
@@ -40,12 +39,15 @@ const Work = () => {
             <a href="/" className={styles.workListItem}>
               BE.STÉAK.Ă
             </a>
+            <div className={styles.description}>- Restaurant Website</div>
             <a href="/" className={styles.workListItem}>
               ELOISA'S BBQ
             </a>
+            <div className={styles.description}>- BBQ Business Website</div>
             <a href="https://justchilld.com" className={styles.workListItem}>
               JUST CHILL'D
             </a>
+            <div className={styles.description}>- Bartender Catering Website</div>
           </div>
         </div>
       ) : (

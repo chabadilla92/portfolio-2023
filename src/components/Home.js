@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-import Wrapper from './Wrapper';
 
 import styles from './Home.module.css';
 

@@ -115,6 +115,7 @@
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
+  line-height: 4rem;
 }
 
 .navListItem {
@@ -142,11 +143,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {
-  .homeContent {
-    height: auto;
-  }
-
+@media screen and (min-width: 768px) {  
   .homeText {
     padding-top: 12rem;
   }
@@ -185,5 +182,45 @@
 
   .homeNav {
     font-size: 7rem;
+    line-height: 6rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .homeHeader {
+    font-size: 1.2rem;
+  }
+
+  .homeText {
+    padding-top: 14rem;
+  }
+
+  .homeParagraph {
+    font-size: 0.9rem;
+  }
+
+  .homeNav {
+    font-size: 10rem;
+    line-height: 10rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .homeContent {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+
+  .homeText {
+    min-width: 20vw;
+    width: 28vw;
+    margin-left: 12rem;
+  }
+
+  .homeNav {
+    margin-left: 0;
+    font-size: 18rem;
+    line-height: 18rem;
   }
 }

@@ -147,7 +147,7 @@
 
 @media screen and (min-width: 768px) {
   .aboutContent {
-    height: auto;
+    height: 100vh;
   }
 
   .navBar {
@@ -160,11 +160,12 @@
   }
 
   .aboutHeader {
-    font-size:6rem;
+    font-size: 6rem;
   }
 
   .aboutText {
     margin-left: 6rem;
+    margin-right: 6rem;
     padding-top: 10rem;
     margin-bottom: 0;
   }
@@ -179,5 +180,31 @@
 
   .aboutLine {
     width: 8rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .aboutHeader {
+    font-size: 9rem;
+  }
+
+  .aboutSubHeader {
+    font-size: 1.5rem;
+  }
+
+  .aboutText {
+    padding-top: 6rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .aboutHeader {
+    font-size: 20rem;
+  }
+
+  .aboutText {
+    margin-left: 12rem;
+    min-width: 50vw;
+    width: 50vw;
   }
 }

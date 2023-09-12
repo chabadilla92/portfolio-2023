@@ -137,6 +137,10 @@
   font-style: italic;
 }
 
+.description {
+  display: none;
+}
+
 @media screen and (min-width: 375px) {
   .workLinks {
     font-size: 3rem;
@@ -150,10 +154,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .workContent {
-    height: auto;
-  }
-
   .navBar {
     flex-direction: column;
     height: 100vh;
@@ -182,6 +182,7 @@
   .workText,
   .workLinks {
     margin-left: 6rem;
+    margin-right: 6rem;
   }
 
   .workText {
@@ -189,6 +190,55 @@
   }
 
   .workLinks {
-    font-size: 5.5rem;
+    font-size: 5rem;
+  }
+
+  .description {
+    display: block;
+    color: white;
+    font-size: 0.8rem;
+    font-family: 'Comfortaa', cursive;
+    line-height: 0;
+    padding-left: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .workText {
+    padding-top: 14rem;
+  }
+
+  .workHeader {
+    font-size: 1.2rem;
+  }
+
+  .workParagraph {
+    font-size: 0.8rem;
+  }
+
+  .workLinks {
+    font-size: 7.2rem;
+    line-height: 8rem;
+    margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .workContent {
+    display: flex;
+    align-items: center;
+  }
+
+  .workText {
+    min-width: 20vw;
+    width: 20vw;
+    margin-right: 0;
+    margin-left: 12rem;
+  }
+
+  .workLinks {
+    margin-left: 0;
+    font-size: 14rem;
+    line-height: 16rem;
   }
 }
