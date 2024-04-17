@@ -14,11 +14,12 @@ const Work = () => {
       <div
         className={`${styles.wrapper} ${
           shouldAnimate ? `${styles.animate}` : ''
-        } ${styles.lightWrapper} `}></div>
+        } ${styles.lightWrapper} `}
+      ></div>
       {shouldAnimate ? (
         <div className={styles.workContent}>
           <div className={styles.navBar}>
-            <a className={styles.homeLink} href="/">
+            <a className={styles.homeLink} href='/'>
               HOME
             </a>
             <div className={styles.workLine}></div>
@@ -36,18 +37,23 @@ const Work = () => {
             </p>
           </div>
           <div className={styles.workLinks}>
-            <a href="/" className={styles.workListItem}>
+            <a
+              href='https://besteaka.vercel.app/'
+              className={styles.workListItem}
+            >
               BE.STÉAK.Ă
             </a>
             <div className={styles.description}>- Restaurant Website</div>
-            <a href="/" className={styles.workListItem}>
+            <a href='/' className={styles.workListItem}>
               ELOISA'S BBQ
             </a>
             <div className={styles.description}>- BBQ Business Website</div>
-            <a href="https://justchilld.com" className={styles.workListItem}>
+            <a href='https://justchilld.com' className={styles.workListItem}>
               JUST CHILL'D
             </a>
-            <div className={styles.description}>- Bartender Catering Website</div>
+            <div className={styles.description}>
+              - Bartender Catering Website
+            </div>
           </div>
         </div>
       ) : (
