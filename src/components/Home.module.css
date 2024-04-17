@@ -198,11 +198,6 @@
   .homeParagraph {
     font-size: 0.9rem;
   }
-
-  .homeNav {
-    font-size: 10rem;
-    line-height: 10rem;
-  }
 }
 
 @media screen and (min-width: 1440px) {
@@ -221,6 +216,7 @@
   .homeNav {
     margin-left: 0;
     font-size: 10rem;
+    line-height: 9rem;
   }
 }
 

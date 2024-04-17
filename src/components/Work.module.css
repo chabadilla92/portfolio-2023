@@ -186,7 +186,7 @@
   }
 
   .workText {
-    padding-top: 12rem;
+    padding-top: 8rem;
   }
 
   .workLinks {
@@ -204,10 +204,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .workText {
-    padding-top: 14rem;
-  }
-
   .workHeader {
     font-size: 1.2rem;
   }
@@ -217,7 +213,7 @@
   }
 
   .workLinks {
-    font-size: 7.2rem;
+    font-size: 6rem;
     line-height: 8rem;
     margin-right: 0;
   }
@@ -239,7 +235,6 @@
   .workLinks {
     margin-left: 0;
     font-size: 7rem;
-
   }
 }
 
