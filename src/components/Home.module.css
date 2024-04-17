@@ -143,7 +143,7 @@
   }
 }
 
-@media screen and (min-width: 768px) {  
+@media screen and (min-width: 768px) {
   .homeText {
     padding-top: 12rem;
   }
@@ -218,6 +218,13 @@
     margin-left: 12rem;
   }
 
+  .homeNav {
+    margin-left: 0;
+    font-size: 10rem;
+  }
+}
+
+@media screen and (min-width: 2560px) {
   .homeNav {
     margin-left: 0;
     font-size: 18rem;

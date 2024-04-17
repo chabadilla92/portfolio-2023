@@ -170,12 +170,19 @@
 
 @media screen and (min-width: 1440px) {
   .contactHeader {
-    font-size: 20rem;
+    font-size: 14rem;
+    margin-top: 0;
   }
 
   .contactText {
     margin-left: 12rem;
     min-width: 50vw;
     width: 50vw;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .contactHeader {
+    font-size: 20rem;
   }
 }

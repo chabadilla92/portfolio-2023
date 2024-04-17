@@ -199,12 +199,19 @@
 
 @media screen and (min-width: 1440px) {
   .aboutHeader {
-    font-size: 20rem;
+    font-size: 10rem;
+    margin-top: 0;
   }
 
   .aboutText {
     margin-left: 12rem;
     min-width: 50vw;
     width: 50vw;
+  }
+}
+
+@media screen and (min-width: 2560px) {
+  .aboutHeader {
+    font-size: 20rem;
   }
 }
