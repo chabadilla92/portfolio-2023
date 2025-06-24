@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-
+import { Link } from 'react-router-dom';
 import styles from './Work.module.css';
 
 const Work = () => {
@@ -47,12 +47,11 @@ const Work = () => {
               ELOISA'S BBQ
             </a>
             <div className={styles.description}>- BBQ Business Website</div> */}
-            <a
-              href='https://collab-note-chi.vercel.app/'
-              className={styles.workListItem}
-            >
+            <Link className={styles.workListItem} to='/project'>
+              {' '}
               COLLABNOTE
-            </a>
+            </Link>
+
             <div className={styles.description}>
               - A collaborative real-time text editor
             </div>

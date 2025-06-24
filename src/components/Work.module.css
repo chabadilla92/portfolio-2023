@@ -114,6 +114,19 @@
   font-size: 0.8rem;
 }
 
+.projectHeader {
+  color: white;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.projectHeader:hover {
+  color: #ffeedd;
+  font-size: 1.4rem;
+}
+
 .workParagraph {
   line-height: 1.5rem;
   font-size: 0.8rem;
