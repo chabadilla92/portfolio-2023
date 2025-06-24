@@ -24,20 +24,19 @@ const Work = () => {
             </a>
             <div className={styles.workLine}></div>
             <div className={styles.workCopywrightContainer}>
-              <span className={styles.workCopywright}>©</span> 2023
+              <span className={styles.workCopywright}>©</span> 2025
             </div>
           </div>
           <div className={styles.workText}>
             <h1 className={styles.workHeader}>WORK</h1>
             <p className={styles.workParagraph}>
-              Here is a collection of my best work in web design and frontend
-              development. These include personal projects, web applications I
-              have designed / developed for small businesses, and freelancing
-              projects.
+              Here is a collection of my best work in full-stack web
+              development, including personal projects, freelance work, and web
+              applications built for small businesses.
             </p>
           </div>
           <div className={styles.workLinks}>
-            <a
+            {/* <a
               href='https://besteaka.vercel.app/'
               className={styles.workListItem}
             >
@@ -47,12 +46,15 @@ const Work = () => {
             <a href='/' className={styles.workListItem}>
               ELOISA'S BBQ
             </a>
-            <div className={styles.description}>- BBQ Business Website</div>
-            <a href='https://justchilld.com' className={styles.workListItem}>
-              JUST CHILL'D
+            <div className={styles.description}>- BBQ Business Website</div> */}
+            <a
+              href='https://collab-note-chi.vercel.app/'
+              className={styles.workListItem}
+            >
+              COLLABNOTE
             </a>
             <div className={styles.description}>
-              - Bartender Catering Website
+              - A collaborative real-time text editor
             </div>
           </div>
         </div>
